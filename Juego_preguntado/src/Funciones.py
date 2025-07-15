@@ -231,7 +231,7 @@ def es_alfabetico(cadena:str) -> bool:
 
     return retorno
 
-def mostrar_top_10(top_diez:list,boton_ranking:dict) -> None:
+def mostrar_top_10(top_diez:list,boton_ranking:dict,pantalla) -> None:
     """_summary_
 
     Args:
@@ -240,9 +240,14 @@ def mostrar_top_10(top_diez:list,boton_ranking:dict) -> None:
 
     Returns:
         _type_: _description_
+        
     """
+    boton_ranking["superficie"].fill((200, 200, 200, 180)) 
+
+
     y_pos = 50
     i = 1
+    
     for entrada in top_diez:
         texto = f"{i}. {entrada['nombre']} - {entrada['puntuacion']} pts - Fecha: {entrada['dia']}"
         # texto_2 = f""
@@ -251,6 +256,7 @@ def mostrar_top_10(top_diez:list,boton_ranking:dict) -> None:
         # mostrar_texto(boton_ranking["superficie"], texto_2, (50, y_pos), FUENTE_TOP_10, COLOR_NEGRO)
         # y_pos += 40
         i += 1
+
 
 def convertir_a_lista(preguntas:list) -> list:
     """_summary_

@@ -8,6 +8,7 @@ lista_botones = crear_botones_menu()
 print(lista_botones)
 fondo_menu = pygame.transform.scale(pygame.image.load("assets/img/fondo.jpg"),PANTALLA)
 
+
 def mostrar_menu(pantalla:pygame.Surface,cola_eventos:list[pygame.event.Event]) -> str:
     retorno = "menu"
     #Gestionar Eventos

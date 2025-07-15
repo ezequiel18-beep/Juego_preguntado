@@ -16,7 +16,7 @@ pantalla = pygame.display.set_mode(PANTALLA)
 fondo_pantalla = pygame.transform.scale(pygame.image.load("assets/img/fondo.jpg"),PANTALLA)
 
 # Se asume que la función crear_elemento_juego en Funciones.py
-# inicializa el diccionario con "visible": True
+
 caja_pregunta = crear_elemento_juego("assets/img/textura_pregunta.jpg",ANCHO_PREGUNTA,ALTO_PREGUNTA,710,125)
 boton_respuesta_uno = crear_elemento_juego("assets/img/textura_respuesta.jpg",ANCHO_BOTON_PREGUNTA,ALTO_BOTON_PREGUNTA,450,400)
 boton_respuesta_dos = crear_elemento_juego("assets/img/textura_respuesta.jpg",ANCHO_BOTON_PREGUNTA,ALTO_BOTON_PREGUNTA,900,400)

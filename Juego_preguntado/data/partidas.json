@@ -1,7 +1,67 @@
 [
     {
+        "nombre": "seeee",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "jose",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "pepe",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "josesito",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "papo",
+        "puntuacion": 0,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "ezequiel",
+        "puntuacion": 0,
+        "dia": "2025-07-15"
+    },
+    {
         "nombre": "jose",
         "puntuacion": 0,
-        "dia": "2025-07-12"
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "eze",
+        "puntuacion": 200,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "eze",
+        "puntuacion": 300,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "eze",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "brisa",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "jose",
+        "puntuacion": 100,
+        "dia": "2025-07-15"
+    },
+    {
+        "nombre": "peppp",
+        "puntuacion": 400,
+        "dia": "2025-07-15"
     }
 ]
